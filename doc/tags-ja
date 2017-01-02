@@ -1,0 +1,14 @@
+!_TAG_FILE_ENCODING	utf-8	//
+:SwindleCloseBuffer	swindle.jax	/*:SwindleCloseBuffer*
+:SwindleJumpNext	swindle.jax	/*:SwindleJumpNext*
+:SwindleJumpPrev	swindle.jax	/*:SwindleJumpPrev*
+<Plug>(swindle-close-buffer)	swindle.jax	/*<Plug>(swindle-close-buffer)*
+<Plug>(swindle-jump-next)	swindle.jax	/*<Plug>(swindle-jump-next)*
+<Plug>(swindle-jump-prev)	swindle.jax	/*<Plug>(swindle-jump-prev)*
+swindle-commands	swindle.jax	/*swindle-commands*
+swindle-contents	swindle.jax	/*swindle-contents*
+swindle-interface	swindle.jax	/*swindle-interface*
+swindle-introduction	swindle.jax	/*swindle-introduction*
+swindle-key-mappings	swindle.jax	/*swindle-key-mappings*
+swindle.txt	swindle.jax	/*swindle.txt*
+swindle.vim	swindle.jax	/*swindle.vim*

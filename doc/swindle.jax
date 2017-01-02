@@ -1,0 +1,48 @@
+*swindle.txt*	タブラインに開いたバッファ名を表示する
+
+==============================================================================
+目次						*swindle-contents*
+
+概要				|swindle-introduction|
+インターフェース		|swindle-interface|
+  コマンド			  |swindle-key-commands|
+  キーマッピング		  |swindle-key-mappings|
+
+
+==============================================================================
+概要						*swindle-introduction*
+
+*swindle.vim* タブラインにそのタブで開いたバッファを表示するプラグインです。
+
+
+==============================================================================
+インターフェース				*swindle-interface*
+
+------------------------------------------------------------------------------
+コマンド					*swindle-commands*
+
+:SwindleCloseBuffer				*:SwindleCloseBuffer*
+	現在開いているバッファを閉じます。
+
+:SwindleJumpNext				*:SwindleJumpNext*
+	次のバッファを開きます。
+
+:SwindleJumpPrev 				*:SwindleJumpPrev*
+	前のバッファを開きます。
+
+------------------------------------------------------------------------------
+キーマッピング					*swindle-key-mappings*
+
+<Plug>(swindle-jump-next)			*<Plug>(swindle-jump-next)*
+	|:SwindleJumpNext| を呼び出します。
+
+<Plug>(swindle-jump-prev)			*<Plug>(swindle-jump-prev)*
+	|:SwindleJumpPrev| を呼び出します。
+
+<Plug>(swindle-close-buffer)			*<Plug>(swindle-close-buffer)*
+	|:SwindleCloseBuffer| を呼び出します。
+
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl

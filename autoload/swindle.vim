@@ -2,7 +2,8 @@ scriptencoding utf-8
 let s:save_cpo = &cpo
 set cpo&vim
 
-let s:V = vital#of("vital")
+let s:V = vital#swindle#of()
+" let s:V = vital#of("vital")
 let s:L = s:V.import("Data.List")
 
 
